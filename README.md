@@ -7,4 +7,6 @@ Pedum Rages was made with pc in mind, I still need to work on the mobile "versio
 
 In the future, I plan to improve the code, and add new things.
 
+Final version(Pc only): https://pedum-rages.netlify.app/
+
 Send sugestion via Discord: Mr.Panda#6605
