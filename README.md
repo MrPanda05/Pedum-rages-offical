@@ -1,10 +1,22 @@
-# Pedum-rages
- This site is just for fun, I did with the purpose to make fun of my friends and myself.
+PT-BR:
+Pedum Rages é um site de zueira, onde o principal foco é a zueira!
 
-All my friends know about this, and they're fine with it!
+Todo mundo que está no site está ciente disso! Então não reclama porra!
 
-I need to work on with the php and the phone version!
+Sim, é bem infantil o humor, e se você não gosta, não veja, não venha reclamar pra min!
 
-Final version(Pc only): https://pedum-rages.netlify.app/
+Contudo, aceito feedback, seja nas escrita ou na estrutura do site!
 
-Send sugestion via Discord: Mr.Panda#6605
+Versão final: https://pedum-rages.netlify.app/
+
+EN:
+
+Pedum Rages is a joke site, where the focus is to have fun!
+
+Everyone that is on this site is aware about it, so don't bitch about it!
+
+Yes, the humor is very childish humor, if you don't like this type of humor don't go on it!
+
+However, I do accept feedback, either being on the writings or the structures of the site!
+
+Final version: https://pedum-rages.netlify.app/
