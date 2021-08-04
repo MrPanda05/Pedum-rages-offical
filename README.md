@@ -1,3 +1,4 @@
+#Pedum-Rages
 PT-BR:
 Pedum Rages é um site de zueira, onde o principal foco é a zueira!
 
@@ -7,7 +8,7 @@ Sim, é bem infantil o humor, e se você não gosta, não veja, não venha recla
 
 Contudo, aceito feedback, seja nas escrita ou na estrutura do site!
 
-Versão final: https://pedum-rages.netlify.app/
+Versão final:(Em breve)
 
 EN:
 
@@ -19,4 +20,4 @@ Yes, the humor is very childish humor, if you don't like this type of humor don'
 
 However, I do accept feedback, either being on the writings or the structures of the site!
 
-Final version: https://pedum-rages.netlify.app/
+Final version:(coming soon)
