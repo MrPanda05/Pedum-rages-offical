@@ -22,15 +22,16 @@
       <a href="#dd">Sobre</a>
       <a href="#contact">Histórias</a>
       <a href="#about">Ajudantes</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="topNav()">
         <i class="fa fa-bars"></i>
       </a>
-      <form class="example">
-        <input type="text" name="search" placeholder="Search.."> 
+      <form class="search">
+        <input type="text" placeholder="Funfa não" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
       </form>
     </div>
     <!--javascript do class topnav e id myTopnav-->
-    <script>function myFunction() {
+    <script>function topNav() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
           x.className += " responsive";
