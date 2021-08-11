@@ -1,12 +1,68 @@
+/*
+    De cima pra baixo!!
+    -Poem image do pedum como background
+    -Fala pro background não repetir
+    -Poem cor de fundo
+    -Especifica a fonte
+*/
 body{
     background-image: url("../imagens/pedumajustado.jpg");
     background-repeat: no-repeat;
     background-color: #00cc4e;
+    font-family: 'Cinzel Decorative', cursive;
  }
+
+ /*
+    Tira a decoração e a linha do "a" que tem id title
+ */
+ #title > a{
+   outline: none;
+   text-decoration: none;
+ }
+/*
+  A cor do link visitado e não visitado devem estar com essa cor
+*/
+ #title > a:visited, #title >a:link {
+   color: rgb(0, 140, 255);
+ }
+
+ #title > a:hover {
+    color: rgb(20, 163, 220);
+ }
+
+ /*
+    Classe topnav
+    -Background color
+    -Esconde o overflow
+    -Deixa um pouco transparente
+    -Coloca um pouco de margin e padding
+
+ */
  .topnav {
     background-color: #00cc4e;
     overflow: hidden;
+    opacity: 0.8;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    padding-top: 5px;
  }
+  /*
+      -Deixa a borda meio redonda
+  */
+ .search {
+    padding: 13px;
+    overflow: hidden;
+    border-radius: 15px 50px;
+ }
+
+  /*
+      -Deixa a box como bloco
+      -Alinha o texto no centro
+      -tira decoração
+      -Poem um estilo de borda e cor
+
+  */
   .topnav a {
     float: left;
     display: block;
@@ -15,6 +71,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-style: groove;
+    border-color: rgb(12, 12, 12);
 }
   .topnav a:hover {
     background-color: #ddd;
@@ -29,6 +87,10 @@ body{
   .topnav .icon {
     display: none;
  } 
+
+ /*
+    -Quando a telar for de um determinado tamanho faz uns treco que eu ainda não sei
+ */
  @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -58,12 +120,42 @@ body{
     margin: 10px;
     opacity: 0.8;
 }
-input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-  }
-  
-  input[type=text]:focus {
-    width: 70%;
-  }
+* {
+  box-sizing: border-box;
+  border-radius: 30px 10px;
+}
+/*
+    -Styliza a search bar
+*/
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+}
+form.search button {
+  float: left;
+  width: 10%;
+  padding: 5px;
+  background: #2e921a;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  border-style: groove;
+  border-color: rgb(12, 12, 12);
+}
+
+form.search button:hover {
+  background: #0cabdb;
+}
+
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
