@@ -16,20 +16,20 @@ body{
  }
 
  /*
-    Tira a decoração e a linha do "a" que tem id title
+    Tira a decoração e a linha do "a" que tem id .header
  */
- #title > a{
+ .header > a{
    outline: none;
    text-decoration: none;
  }
 /*
   A cor do link visitado e não visitado devem estar com essa cor
 */
- #title > a:visited, #title >a:link {
+ .header > a:visited, .header >a:link {
    color: rgb(0, 140, 255);
  }
 
- #title > a:hover {
+ .header > a:hover {
     color: rgb(20, 163, 220);
  }
 
@@ -116,7 +116,7 @@ body{
     }
  }
 
-#title {
+.header {
     background-color: #00cc4e;
     text-align: center;
     padding: 10px;
