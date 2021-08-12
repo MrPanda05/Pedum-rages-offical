@@ -4,11 +4,14 @@
     -Fala pro background não repetir
     -Poem cor de fundo
     -Especifica a fonte
+    -Ajusta o background para que não mude no zoom
 */
 body{
     background-image: url("../imagens/pedumajustado.jpg");
-    background-repeat: no-repeat;
     background-color: #00cc4e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Cinzel Decorative', cursive;
  }
 
