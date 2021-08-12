@@ -162,3 +162,40 @@ form.search::after {
   clear: both;
   display: table;
 }
+
+.main, .aside {
+  background-color: #00cc4e;
+  padding: 8px;
+  margin: 8px;
+  opacity: 0.8;
+  border: hidden;
+  width: 75%;
+  float: left;
+  position: relative;
+}
+
+.aside {
+  text-align: center;
+  width: 23%;
+  position: relative;
+  bottom: 200px;
+  clear: left;
+  float: right;
+  overflow: auto;
+}
+
+.footer {
+  clear: right;
+  background-color: #00cc4e;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .aside {
+    width: 20%;
+    bottom: 400px;
+  }
+}
+
