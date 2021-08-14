@@ -4,29 +4,32 @@
     -Fala pro background não repetir
     -Poem cor de fundo
     -Especifica a fonte
+    -Ajusta o background para que não mude no zoom
 */
 body{
     background-image: url("../imagens/pedumajustado.jpg");
-    background-repeat: no-repeat;
     background-color: #00cc4e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Cinzel Decorative', cursive;
  }
 
  /*
-    Tira a decoração e a linha do "a" que tem id title
+    Tira a decoração e a linha do "a" que tem id .header
  */
- #title > a{
+ .header > a{
    outline: none;
    text-decoration: none;
  }
 /*
   A cor do link visitado e não visitado devem estar com essa cor
 */
- #title > a:visited, #title >a:link {
+ .header > a:visited, .header >a:link {
    color: rgb(0, 140, 255);
  }
 
- #title > a:hover {
+ .header > a:hover {
     color: rgb(20, 163, 220);
  }
 
@@ -113,7 +116,7 @@ body{
     }
  }
 
-#title {
+.header {
     background-color: #00cc4e;
     text-align: center;
     padding: 10px;
@@ -159,3 +162,39 @@ form.search::after {
   clear: both;
   display: table;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 62.5rem auto;
+  background-color: #2196F3;
+  padding: 5px;
+  grid-column-gap: 10px;
+  margin: 10px;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+.grid-item {
+  background-color: #00cc4e;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer {
+  clear: right;
+  background-color: #00cc4e;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .aside {
+    width: 20%;
+    bottom: 400px;
+  }
+}
+
