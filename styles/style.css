@@ -18,7 +18,7 @@ body{
  /*
     Tira a decoração e a linha do "a" que tem id .header
  */
- .header > a{
+ .header > a, a{
    outline: none;
    text-decoration: none;
  }
@@ -165,6 +165,7 @@ form.search::after {
 
 .grid-container {
   display: grid;
+  border: black;
   grid-template-columns: 62.5rem auto;
   background-color: #2196F3;
   padding: 5px;
@@ -172,23 +173,25 @@ form.search::after {
   margin: 10px;
   opacity: 0.9;
   overflow: hidden;
+  border-collapse: collapse;
 }
 
 .grid-item {
   background-color: #00cc4e;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: black;
   padding: 20px;
-  font-size: 15px;
+  font-size: 19px;
   text-align: center;
   overflow: hidden;
+  border-collapse: collapse;
 }
 
-.footer {
-  clear: right;
+.footer, .fanfic {
   background-color: #00cc4e;
   padding: 10px;
   margin: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
+  border-collapse: collapse;
 }
 
 @media screen and (max-width: 600px) {
