@@ -33,6 +33,10 @@ body{
     color: rgb(20, 163, 220);
  }
 
+ .header h1 {
+  font-size: 38px;
+}
+
  /*
     Classe topnav
     -Background color
@@ -201,3 +205,18 @@ form.search::after {
   }
 }
 
+h1, h2, .img {
+  text-align: center;
+}
+
+.paragrafo {
+  margin: 5px;
+  text-indent: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.falas {
+  font-weight: bold;
+  font-size: 20px;
+
+}

@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Neeko">
-        <meta name="description" content="Pedum rages é um site de zueira, onde o principal objetivo é a diversão, feito entre amigos, mas aberto à todos!">
-        <title>Pedum rages: o lugar onde os tiltados moram!</title>
-        <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
-        <link rel="stylesheet" href="../../styles/princi.css">
-        <style>
-            h3 {
-                font-size: 2.5rem;
-            }
-            p{
-                text-indent: 20px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 20px;
-            }
-            .jug {
-                height: 300px;
-                width: 300px;
-            }
-        </style>
-            
-    </head>
-    <body>
-        <header>
-        <h1><a href="../../index.html">Pedum rages</a></h1>
-        </header>
-        <nav>
-          <div class="topnav">
-            <a href="../../index.html">Inicio</a> 
-            <a href="../social/sobre.html">Sobre</a>
-            <a class="active" href="../contos.html">Histórias</a>
-            <a href="../social/ajudante.html">Ajudantes</a>
-            <input type="text" placeholder="Não funfa">
-            </div>
-          </nav>
-          <main>
-              <article>
-              <h2>Jug</h2>
-              <p>Jug, ou como conhecido cientificamente como <i>Assoprafitus juginus</i>, são uma espécie de assopradores de fitas,
-                   que gostam muito de tocar guitarra, em fato, eles gostam tanto de tocar sua guitarra que os outros animais o destam por esse fato sozinho, talvez por inveja?</p>
-                   <p>
-                    Outro fato de Jug é o seu desgosto contra a espécie de carecas chamados de <i>Daluncius kyutitus</i> ou Daluncius, Essas duas espécies se odeiam tanto, que o brigas entre essas espécies ocorrem ilegalmente,
-                     segundo o Instituto Ambiental dos Animais com Canci Zumbi, <b>“30% dos <i>Assoprafitus juginus</i> são mortos em brigas ilegais”</b>, mais de 500 pessoas foram presas somente em 2013 por causa desse crime.
-                   </p>
-                   <h3>Foto de um Jug em seu habitat natural:</h3>
-                   <img src="../../imagens/jug.png" class="jug">
-                   <h3>Foto de um Jug em um ring ilegal de luta:</h3>
-                   <img src="../../imagens/jug2.png" class="jug">
-             </article>
-            </main>
-            <footer>
-                <p>©Copyright 2020 by Neeko. All rights reversed.</p>
-              </footer>
-    </body>    
-</html>    
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Neeko">
+    <meta name="description" content="Historia sobre jug!">
+    <title>Pedum rages: o lugar onde os tiltados vivem!</title>
+    <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
+    <meta name="keywords" content="Neeko, Panda, Ovejita, Greedy, Ziramack, Kitsune, Otaku, Armagedom100, Azoch02, Azoch, Pedum, Pedum rages, Pedum tiltado, Tilt, Jug, Dalunciu, Pudim, Kyute, Pepe, Fragnaut, Sysekton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/style.css" rel="stylesheet">
+  </head>
+  <style>
+    .grid-container, .grid-item{
+      grid-template-columns: auto;
+      text-align: left;
+      font-size: 20px;
+    }
+    .jug {
+      height: 300px;
+      width: 350px;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <a href="../../index.html"><h1>Pedum Rages!</h1></a>
+      <p>O lugar onde os tiltados vivem!</p>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html" class="active">Inicio</a>
+      <a href="../sobre.html">Sobre</a>
+      <a href="../contos.html">Histórias</a>
+      <a href="../ajudante.html">Ajudantes</a>
+      <a href="javascript:void(0);" class="icon" onclick="topNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <form class="search">
+        <input type="text" placeholder="Funfa não" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <div id="main" class="grid-container">
+      <div id="bemvindo" class="grid-item">
+        <h1>Jug</h1>
+          Jug, ou como conhecido cientificamente como <i>Assoprafitus juginus</i>, são uma espécie de assopradores de fitas,
+          que gostam muito de tocar guitarra, em fato, eles gostam tanto de tocar sua guitarra que os outros animais o destam por esse fato sozinho, talvez por inveja?<br>
+          Outro fato de Jug é o seu desgosto contra a espécie de carecas chamados de <i>Daluncius kyutitus</i> ou Daluncius, Essas duas espécies se odeiam tanto, que o brigas entre essas espécies ocorrem ilegalmente,
+          segundo o Instituto Ambiental dos Animais com Canci Zumbi, <b>“30% dos <i>Assoprafitus juginus</i> são mortos em brigas ilegais”</b>, mais de 500 pessoas foram presas somente em 2013 por causa desse crime.
+          <div class="img">
+            <h3>Foto de um Jug em seu habitat natural:</h3>
+            <img src="../../imagens/jug.png" class="jug">
+          </div>
+          <div class="img">
+            <h3>Foto de um Jug em um ring ilegal de luta:</h3>
+          <img src="../../imagens/jug2.png" class="jug">
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      ©Copyright 2021 by Neeko. All rights reversed.
+    </div>
+    <!--javascript do class topnav e id myTopnav-->
+    <script>function topNav() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+     </script>
+     <!--End of Javascript-->
+  </body>
+</html>
+
