@@ -1,70 +1,101 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Neeko">
-        <meta name="description" content="Pedum rages é um site de zueira, onde o principal objetivo é a diversão, feito entre amigos, mas aberto à todos!">
-        <title>Pedum rages: o lugar onde os tiltados moram!</title>
-        <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
-        <link rel="stylesheet" href="../../styles/terci.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Neeko">
+    <meta name="description" content="Fatos curiosos sobre armagedom!">
+    <title>Pedum rages: o lugar onde os tiltados vivem!</title>
+    <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
+    <meta name="keywords" content="Neeko, Panda, Ovejita, Greedy, Ziramack, Kitsune, Otaku, Armagedom100, Azoch02, Azoch, Pedum, Pedum rages, Pedum tiltado, Tilt, Jug, Dalunciu, Pudim, Kyute, Pepe, Fragnaut, Sysekton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/style.css" rel="stylesheet">
+  </head>
+    <style>
+      h1, h2 {
+        text-align: center;
+      }
+      
+       .linke:visited , .linke:link  {
+        color: rgb(225, 0, 255);
+      }
+
+      .linke:hover {
+        color: rgb(17, 0, 255);
+      }
+    </style>
     <body>
-        <header>
-        <h1><a href="../../index.html">Pedum rages</a></h1>
-        </header>
-        <nav>
-            <div class="topnav">
-                <a href="../../index.html">Inicio</a> 
-                <a href="../social/sobre.html">Sobre</a>
-                <a href="../contos.html">Histórias</a>
-                <a href="../social/ajudante.html">Ajudantes</a>
-                <a class="active" href="armagedom-peri.html">Arma</a>
-                <input type="text" placeholder="Não funfa">
-                </div>
-          </nav>
-          <main>
-              <article>
-              <h2>13 Fatos sobre Armagedom100!</h2>
-              <ol>
-                  <li>Uma faca furou o olho do Armagedom.
-                      A faca ficou cega!</li>
-                  <li>Armagedom criou o Facebook</li>
-                  <li>Armagedom não dorme, ele espera!</li>
-                  <li>Armagedom já contou até o infinito <strong>três</strong> vezes.</li>
-                  <li>Armagedom pediu que fizessem uma bebida do WhatsApp e fizeram.</li>
-                  <li>Armagedom fez um teste num detector de mentiras. A maquina confessou tudo.</li>
-                  <li>Armagedom fez <em>fogo</em> com <strong>cubos de gelo</strong>.</li>
-                  <li>Uma vez, uma cobra mordeu Armagedom. Depois de agonizar muito, a cobra morreu.</li>
-                  <li>Uma vez, Armagedom se atrasou para chegar na escola. A professora foi demitida por chegar muito cedo.</li>
-                  <li>Uma vez, Armagedom foi para a diretoria e os pais da diretora foram chamados</li>
-                  <li>Armagedom faltou <strong>dois dias</strong> na escola, mais tarde esses dias foram batizados como sábado e domingo.</li>
-                  <li>Armagedom passou <em>30 minutos</em> fora da sala e assim nasceu o intervalo/recreio.</li>
-                  <li>Quando os filósofos chegaram, Armagedom estava lá para ensinar tudo que sabem.</li>
-              </ol>
-             </article>
-             <aside>
-                 <h2>Proverbio do Armagedom</h2>
-                 <h3>O que é Armagedom?</h3>
-                 <ul>
-                 <dl>
-                     <li><dd>Para o faminto</dd></li>
-                     <dt>Armagedom é o pão</dt>
-                     <li><dd>Para o enfermo</dd></li>
-                     <dt>Armagedom é a cura</dt>
-                     <li><dd>Para o prisioneiro</dd></li>
-                     <dt>Armagedom é a liberdade</dt>
-                     <li><dd>Para o mentiroso</dd></li>
-                     <dt>Armagedom é a verdade</dt>
-                     <li><dd>Para o agricultor</dd></li>
-                     <dt>Armagedom é a a árvore que dá fruto</dt>
-                     <li><dd>Para o pecador</dd></li>
-                     <dt>Armagedom é o perdão</dt>
-                     </dl>
-                     </ul>
-            </main>
-            <footer>
-                <p>©Copyright 2020 by Neeko. All rights reversed.</p>
-              </footer>
-    </body>    
+      <div class="header">
+        <a href="../../index.html"><h1>Pedum Rages!</h1></a>
+        <p>O lugar onde os tiltados vivem!</p>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="../../index.html">Inicio</a>
+        <a href="../sobre.html">Sobre</a>
+        <a href="../contos.html">Histórias</a>
+        <a href="../ajudante.html">Ajudantes</a>
+        <a href="armagedom-peri.html" class="active">Arma</a>
+        <a href="javascript:void(0);" class="icon" onclick="topNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <form class="search">
+          <input type="text" placeholder="Funfa não" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div id="main" class="grid-container">
+        <div id="bemvindo" class="grid-item">
+          <h1>13 Fatos sobre Armagedom100!</h1>
+          <ol>
+            <li>Uma faca furou o olho do Armagedom. A faca ficou cega!</li>
+            <li>Armagedom criou o Facebook</li>
+            <li>Armagedom não dorme, ele espera!</li>
+            <li>Armagedom já contou até o infinito <strong>três</strong> vezes.</li>
+            <li>Armagedom pediu que fizessem uma bebida do WhatsApp e fizeram.</li>
+            <li>Armagedom fez um teste num detector de mentiras. A maquina confessou tudo.</li>
+            <li>Armagedom fez <em>fogo</em> com <strong>cubos de gelo</strong>.</li>
+            <li>Uma vez, uma cobra mordeu Armagedom. Depois de agonizar muito, a cobra morreu.</li>
+            <li>Uma vez, Armagedom se atrasou para chegar na escola. A professora foi demitida por chegar muito cedo.</li>
+            <li>Uma vez, Armagedom foi para a diretoria e os pais da diretora foram chamados</li>
+            <li>Armagedom faltou <strong>dois dias</strong> na escola, mais tarde esses dias foram batizados como sábado e domingo.</li>
+            <li>Armagedom passou <em>30 minutos</em> fora da sala e assim nasceu o intervalo/recreio.</li>
+            <li>Quando os filósofos chegaram, Armagedom estava lá para ensinar tudo que sabem.</li>
+        </ol>
+        </div>
+        <div id="fatos" class="grid-item">
+          <h1>Proverbio do Armagedom</h1>
+          <h2>O que é Armagedom?</h2>
+          <ul>
+            <dl>
+                <li><dd>Para o faminto</dd></li>
+                <dt>Armagedom é o pão</dt>
+                <li><dd>Para o enfermo</dd></li>
+                <dt>Armagedom é a cura</dt>
+                <li><dd>Para o prisioneiro</dd></li>
+                <dt>Armagedom é a liberdade</dt>
+                <li><dd>Para o mentiroso</dd></li>
+                <dt>Armagedom é a verdade</dt>
+                <li><dd>Para o agricultor</dd></li>
+                <dt>Armagedom é a a árvore que dá fruto</dt>
+                <li><dd>Para o pecador</dd></li>
+                <dt>Armagedom é o perdão</dt>
+                </dl>
+                </ul>
+        </div>
+      </div>
+      <div class="footer">
+        ©Copyright 2021 by Neeko. All rights reversed.
+      </div>
+      <!--javascript do class topnav e id myTopnav-->
+      <script>function topNav() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+       </script>
+       <!--End of Javascript-->
+    </body>
 </html>    

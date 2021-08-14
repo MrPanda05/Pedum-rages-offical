@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Neeko">
-        <meta name="description" content="Pedum rages é um site de zueira, onde o principal objetivo é a diversão, feito entre amigos, mas aberto à todos!">
-        <title>Pedum rages: o lugar onde os tiltados moram!</title>
-        <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
-        <link rel="stylesheet" href="../../styles/princi.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-          a.test:link {
-            color: green;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a.test:visited {
-            color: red;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a.test:hover {
-            color: blue;
-            background-color: transparent;
-            text-decoration: underline;
-          }
-          
-          a.test:active {
-            color: yellow;
-            background-color: transparent;
-            text-decoration: underline;
-          }
-          </style> 
-    </head>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Neeko">
+    <meta name="description" content="Algumas peripecias de armagedom">
+    <title>Pedum rages: o lugar onde os tiltados vivem!</title>
+    <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
+    <meta name="keywords" content="Neeko, Panda, Ovejita, Greedy, Ziramack, Kitsune, Otaku, Armagedom100, Azoch02, Azoch, Pedum, Pedum rages, Pedum tiltado, Tilt, Jug, Dalunciu, Pudim, Kyute, Pepe, Fragnaut, Sysekton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/style.css" rel="stylesheet">
+  </head>
+    <style>
+      .grid-container, .grid-item{
+        grid-template-columns: auto;
+        text-align: left;
+        font-size: 20px;
+      }
+      h1, h2 {
+        text-align: center;
+      }
+      
+       .linke:visited , .linke:link  {
+        color: rgb(225, 0, 255);
+      }
+
+      .linke:hover {
+        color: rgb(17, 0, 255);
+      }
+    </style>
     <body>
-        <header>
-        <h1><a href="../../index.html">Pedum rages</a></h1>
-        </header>
-        <nav>
-          <div class="topnav">
-            <a href="../../index.html">Inicio</a> 
-            <a href="../social/sobre.html">Sobre</a>
-            <a href="../contos.html">Histórias</a>
-            <a href="../social/ajudante.html">Ajudantes</a>
-            <a class="active" href="armagedom-peri.html">Arma</a>
-            <input type="text" placeholder="Não funfa">
-            </div>
-          </nav>
-          <main>
-              <article>
-              <h2>Enfadonhas de Armagedom100</h2>
-              <h3>Quem é armagedom100?</h3>
-              <p>Armagedom100, ou como é conhecido por sua mãe, <em>Armagedom100gueimer</em>, é um dos principais filosofos da conteporaniedade, ao lado de 
-                  figuras ilustres como Platão e Bolsonaro.</p>
-                  <p>Armagedom tambem é muito famoso por suas ilutres frases marcantes, como por exemplo <q>Otaku, você é tão azarado que em uma chuva de bucetas, cai uma piroca em você</q>
-                    <p>Ele mora na puta que pariu, em outras palavras, no Pará.<br>
-                        Não se deixe enganar por seu geito galã, ele é muito inteligente, cada ideia que esse homen tem é o suficente para acabar com todos os problemas na Terra, 
-                        mas nós sabemos que ele nunca colocou suas ideias em prática devido à muito tempo que ele gasta vendo <abbr title="Pornô de furry">yiff</abbr>
-                    </p> 
-                    <p>Ele contudo, nunca deve ser ADM, pois ele é muito brincalhão, muito conhecido por seu canal de pegadinhas:
-                      <q>Nicolas Pegadinhas</q>, por isso é melhor não dar ADM a ele.
-                    </p>
-                    <p>Para saber mais sobre ele, <a class="test" href="fatosarmagedom.html" 
-                        alt="Página sobre Armagedom">clique aqui!</a></p>
-              
-             </article>
-            </main>
-            <footer>
-                <p>©Copyright 2020 by Neeko. All rights reversed.</p>
-              </footer>
-    </body>    
+      <div class="header">
+        <a href="../../index.html"><h1>Pedum Rages!</h1></a>
+        <p>O lugar onde os tiltados vivem!</p>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="../../index.html">Inicio</a>
+        <a href="../sobre.html">Sobre</a>
+        <a href="../contos.html">Histórias</a>
+        <a href="../ajudante.html">Ajudantes</a>
+        <a href="armagedom-peri.html" class="active">Arma</a>
+        <a href="javascript:void(0);" class="icon" onclick="topNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <form class="search">
+          <input type="text" placeholder="Funfa não" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div id="main" class="grid-container">
+        <div id="bemvindo" class="grid-item">
+          <h1>Enfadonhas de Armagedom100!</h1>
+          <h2>Quem é armagedom100?</h2>
+          Armagedom100, ou como é conhecido por sua mãe, Armagedom100gueimer, é um dos principais filosofos da conteporaniedade, ao lado de figuras ilustres como Platão e Bolsonaro.<br>
+          <br>
+          Armagedom tambem é muito famoso por suas ilutres frases marcantes, como por exemplo "Otaku, você é tão azarado que em uma chuva de bucetas, cai uma piroca em você"<br>
+          <br>
+          Ele mora na puta que pariu, em outras palavras, no Pará.
+          Não se deixe enganar por seu geito galã, ele é muito inteligente, cada ideia que esse homen tem é o suficente para acabar com todos os problemas na Terra, mas nós sabemos que ele nunca colocou suas ideias em prática devido à muito tempo que ele gasta vendo yiff<br>
+          <br>
+          Ele contudo, nunca deve ser ADM, pois ele é muito brincalhão, muito conhecido por seu canal de pegadinhas: "Nicolas Pegadinhas", por isso é melhor não dar ADM a ele.<br>
+          <br>
+          Para saber mais sobre ele, <a href="fatosarmagedom.html" class="linke">clique aqui!</a>
+        </div>
+      </div>
+      <div class="footer">
+        ©Copyright 2021 by Neeko. All rights reversed.
+      </div>
+      <!--javascript do class topnav e id myTopnav-->
+      <script>function topNav() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+       </script>
+       <!--End of Javascript-->
+    </body>
 </html>    

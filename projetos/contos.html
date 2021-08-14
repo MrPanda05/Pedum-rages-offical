@@ -1,91 +1,95 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Neeko">
-        <meta name="description" content="Pedum rages é um site de zueira, onde o principal objetivo é a diversão, feito entre amigos, mas aberto à todos!">
-        <title>Pedum rages: o lugar onde os tiltados moram!</title>
-        <link rel="shortcut icon" href="../boi.png" type="image/boi-png">
-        <link rel="stylesheet" href="../styles/princi.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <style>
-          .bruh {
-            list-style-type: "\1F4A2";
-          }
-          .sleep {
-            list-style-type: "\1F4A4";
-          }
-          .god {
-            list-style-type: "\1F975";
-          }
-          li {
-            list-style: "\1F60E";
-          }
-          #sec {
-            list-style: "\1F92B";
-          }
-          #other {
-            padding-left: 30px;
-          }
-          p {
-            font-size: 15px;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-style: italic;
-          }
-          
-        </style>
-    </head>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Neeko">
+    <meta name="description" content="As historias que descrevem o pedum rages, leia todas! E descubra qual é a mais bizarra">
+    <title>Pedum rages: Historias e muito mais!</title>
+    <link rel="shortcut icon" href="../boi.png" type="image/boi-png">
+    <meta name="keywords" content="Neeko, Panda, Ovejita, Greedy, Ziramack, Kitsune, Otaku, Armagedom100, Azoch02, Azoch, Pedum, Pedum rages, Pedum tiltado, Tilt, Jug, Dalunciu, Pudim, Kyute, Pepe, Fragnaut, Sysekton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style.css" rel="stylesheet">
+    <style>
+      .grid-container, .grid-item{
+        grid-template-columns: auto;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 15px;
+        border-collapse: collapse;
+      }
+      h1, h2, p {
+        text-align: center;
+      }
+      .fanfic {
+        opacity: 1;
+        margin: 0%;
+        border-radius: 15px;
+      }
+    </style>
     <body>
-        <header>
-        <h1><a href="../index.html">Pedum rages</a></h1>
-        </header>
-        <nav>
-          <div class="topnav">
-            <a href="../index.html">Inicio</a> 
-            <a href="social/sobre.html">Sobre</a>
-            <a class="active" href="contos.html">Histórias</a>
-            <a href="social/ajudante.html">Ajudantes</a>
-            <input type="text" placeholder="Não funfa">
-          </div> 
-            </form>
-          </nav>
-          <main>
-              <article>
-              <h2>Histórias</h2>
-              <div>
-              <ul>
-                <li class="bruh"><a href="historias/pedum-e-rages.html">Pedum e seus rages</a></li>
+      <div class="header">
+        <a href="../index.html"><h1>Pedum Rages!</h1></a>
+        <p>O lugar onde os tiltados vivem!</p>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html">Inicio</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contos.html" class="active">Histórias</a>
+        <a href="ajudante.html">Ajudantes</a>
+        <a href="javascript:void(0);" class="icon" onclick="topNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <form class="search">
+          <input type="text" placeholder="Funfa não" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div id="main" class="grid-container">
+        <div id="bemvindo" class="grid-item">
+          <h1>Historias!</h1>
+          <ul>
+                <li><a href="historias/pedum-e-rages.html">Pedum e seus rages</a></li>
                 <li><a href="historias/caso-armagedom-1.html">Caso armagedom #1</a></li>
                 <li><a href="historias/sal-agosto.html">Sal Agosto</a></li>
-                <li class="sleep"><a href="historias/badkitsune.html">BadKitsune</a></li>
-                <li class="sleep"><a href="historias/kitsune-mimi.html">Kitsuse e a hibernação eterna</a></li>
-                <li class="god"><a href="historias/pepe.html">The GOD Pepe</a></li>
+                <li><a href="historias/badkitsune.html">BadKitsune</a></li>
+                <li><a href="historias/kitsune-mimi.html">Kitsuse e a hibernação eterna</a></li>
+                <li><a href="historias/pepe.html">The GOD Pepe</a></li>
                 <li><a href="historias/azoch.html">Azuxi</a></li>
                 <li><a href="historias/frag.html">Sedex</a></li>
                 <li><a href="historias/otaku.html">Otakinho</a></li>
                 <li><a href="historias/samba.html">Sambati!</a></li>
-                <li id="sec"><a href="historias/kitsu.html">Secret</a></li>
-                <li class="god"><a href="historias/pandahis.html">Panda</a></li>
-                <li class="bruh"><a href="historias/dalunciu.html">Dalunciu</a></li>
-                <li class="sec"><a href="historias/jug.html">Jug</a></li>
-                <li class="sleep"><a href="historias/porraspec.html">PorraSpectral</a></li>                
-              </ul>
-              </div>
-              <div>
-                <h2 id="other">Fanfics do Panda</h2>
-                <h3><p>"Tenho medo"- Dalunciu</p></h3>
-                <h3><p>Para as fanfics do panda:"Ainda bem que a justiça é cega, se ela olhasse isso ela se cegaria".-Kitsune</p></h3>
-                <ul>
-                  <li><a href="historias/JugxDali.html">Dalunciu x Jug</a></li>
-                  <li><a href="historias/OtakuxBolso.html">Otaku x Astrono x Bolsonaro</a></li>
-                </ul>
-              </div>
-             </article>
-            </main>
-            <footer>
-                <p>©Copyright 2020 by Neeko. All rights reversed.</p>
-              </footer>
-    </body>    
-</html>    
+                <li><a href="historias/kitsu.html">Secret</a></li>
+                <li><a href="historias/pandahis.html">Panda</a></li>
+                <li><a href="historias/dalunciu.html">Dalunciu</a></li>
+                <li><a href="historias/jug.html">Jug</a></li>
+                <li><a href="historias/porraspec.html">PorraSpectral</a></li>
+          </ul>
+        </div>
+        <div class="fanfic">
+            <h1>Fanfics</h1>
+            <p>"Tenho medo"- Dalunciu</p>
+            <p>Para as fanfics do panda:"Ainda bem que a justiça é cega, se ela olhasse isso ela se cegaria".-Kitsune</p>
+            <ul>
+              <li><a href="historias/JugxDali.html">Dalunciu x Jug</a></li>
+              <li><a href="historias/OtakuxBolso.html">Otaku x Astrono x Bolsonaro</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="footer">
+        ©Copyright 2021 by Neeko. All rights reversed.
+      </div>
+      <!--javascript do class topnav e id myTopnav-->
+      <script>function topNav() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+       </script>
+       <!--End of Javascript-->
+    </body>
+</html>
+

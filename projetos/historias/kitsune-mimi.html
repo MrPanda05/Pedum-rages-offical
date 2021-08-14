@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Neeko">
-        <meta name="description" content="Pedum rages é um site de zueira, onde o principal objetivo é a diversão, feito entre amigos, mas aberto à todos!">
-        <title>Pedum rages: o lugar onde os tiltados moram!</title>
-        <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
-        <link rel="stylesheet" href="../../styles/princi.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
-        <h1><a href="../../index.html">Pedum rages</a></h1>
-        </header>
-        <nav>
-          <div class="topnav">
-            <a href="../../index.html">Inicio</a> 
-            <a href="../social/sobre.html">Sobre</a>
-            <a class="active" href="../contos.html">Histórias</a>
-            <a href="../social/ajudante.html">Ajudantes</a>
-            <input type="text" placeholder="Não funfa">
-            </div>
-          </nav>
-          <main>
-              <article>
-              <h2>Kitsuse e a hibernação eterna</h2>
-              <p>O ser Kitsune faz parte de uma rara especie chamada <em>Gordumis kitsunus</em>, "Gk" precisam se alimentar de muitas coisas em um curto período de tempo, podemos considerar um dos bichos mais raros do mundo, por causa de sua alimentação eles precisão hibernar, mas por sorte nossa equipe conseguiu fotografar essa linda criatura:</p>
-              <img src="../../imagens/kitsune.webp"
-              alt="Kitsune dormindo em pleno território natural!"
-              width="200"
-              height="300"
-              >
-             </article>
-            </main>
-            <footer>
-                <p>©Copyright 2020 by Neeko. All rights reversed.</p>
-              </footer>
-    </body>    
-</html>    
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Neeko">
+    <meta name="description" content="Kitsune hibernando eternamente enquanto não chove churros!">
+    <title>Pedum rages: o lugar onde os tiltados vivem!</title>
+    <link rel="shortcut icon" href="../../boi.png" type="image/boi-png">
+    <meta name="keywords" content="Neeko, Panda, Ovejita, Greedy, Ziramack, Kitsune, Otaku, Armagedom100, Azoch02, Azoch, Pedum, Pedum rages, Pedum tiltado, Tilt, Jug, Dalunciu, Pudim, Kyute, Pepe, Fragnaut, Sysekton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../styles/style.css" rel="stylesheet">
+  </head>
+  <style>
+    .grid-container, .grid-item{
+      grid-template-columns: auto;
+      text-align: left;
+      font-size: 20px;
+    }
+    h1, h2, #img {
+        text-align: center;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <a href="../../index.html"><h1>Pedum Rages!</h1></a>
+      <p>O lugar onde os tiltados vivem!</p>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html" class="active">Inicio</a>
+      <a href="../sobre.html">Sobre</a>
+      <a href="../contos.html">Histórias</a>
+      <a href="../ajudante.html">Ajudantes</a>
+      <a href="javascript:void(0);" class="icon" onclick="topNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <form class="search">
+        <input type="text" placeholder="Funfa não" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <div id="main" class="grid-container">
+      <div id="bemvindo" class="grid-item">
+        <h1>Kitsune e a hibernação eterna</h1>
+          O ser Kitsune faz parte de uma rara especie chamada <em>Gordumis kitsunus</em>, "Gk" precisam se alimentar de muitas coisas em um curto período de tempo, podemos considerar um dos bichos mais raros do mundo, por causa de sua alimentação eles precisão hibernar, mas por sorte nossa equipe conseguiu fotografar essa linda criatura:
+          <div class="img">
+            <img src="../../imagens/kitsune.webp" alt="Kitsune dormindo em pleno território natural!" width="200" height="300">
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      ©Copyright 2021 by Neeko. All rights reversed.
+    </div>
+    <!--javascript do class topnav e id myTopnav-->
+    <script>function topNav() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+     </script>
+     <!--End of Javascript-->
+  </body>
+</html>
+
