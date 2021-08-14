@@ -163,25 +163,24 @@ form.search::after {
   display: table;
 }
 
-.main, .aside {
-  background-color: #00cc4e;
-  padding: 8px;
-  margin: 8px;
-  opacity: 0.8;
-  border: hidden;
-  width: 75%;
-  float: left;
-  position: relative;
+.grid-container {
+  display: grid;
+  grid-template-columns: 62.5rem auto;
+  background-color: #2196F3;
+  padding: 5px;
+  grid-column-gap: 10px;
+  margin: 10px;
+  opacity: 0.9;
+  overflow: hidden;
 }
 
-.aside {
+.grid-item {
+  background-color: #00cc4e;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
   text-align: center;
-  width: 23%;
-  position: relative;
-  bottom: 200px;
-  clear: left;
-  float: right;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .footer {
