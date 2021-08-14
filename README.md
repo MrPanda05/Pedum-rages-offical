@@ -8,7 +8,7 @@ Sim, é bem infantil o humor, e se você não gosta, não veja, não venha recla
 
 Contudo, aceito feedback, seja nas escrita ou na estrutura do site!
 
-Versão final:(Em breve)
+Versão final:https://pedum-rages.netlify.app/index.html
 
 EN:
 
@@ -20,4 +20,4 @@ Yes, the humor is very childish humor, if you don't like this type of humor don'
 
 However, I do accept feedback, either being on the writings or the structures of the site!
 
-Final version:(coming soon)
+Final version:https://pedum-rages.netlify.app/index.html
