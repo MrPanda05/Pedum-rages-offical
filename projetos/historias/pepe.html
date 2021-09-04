@@ -57,14 +57,70 @@
       ©Copyright 2021 by Neeko. All rights reversed.
     </div>
     <!--javascript do class topnav e id myTopnav-->
-    <script>function topNav() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
+    <script>
+      function topNav() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+function fuckYou() {
+    const fuckYou = new Audio('./audio/Dude_fuckyou.wav');
+    const fuckOff = new Audio('./audio/Dude-fuckOff.wav');
+    const fuckYou1 = new Audio('./audio/Dude-FuckYou01.wav');
+    const fuckYou2 = new Audio('./audio/Dude-FuckYou02.wav');
+    const fuckYou3 = new Audio('./audio/Dude-FuckYou03.wav');
+    const fuckYou4 = new Audio('./audio/Dude-FuckYou04.wav');
+    const fuckYouBuddy = new Audio('./audio/Dude-FuckYouBuddy.wav');
+    const fuckYouPal = new Audio('./audio/Dude-FuckYouPal.wav');
+    const goFuckYour = new Audio('./audio/Dude-GoFuckYourself.wav');
+
+    let num = Math.floor(Math.random() * 9);//gera random num até 8
+    console.log(num);
+
+    switch (num) {
+        case 0:
+            fuckYou.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+         case 1:
+            fuckOff.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 2:
+            fuckYou1.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 3:
+            fuckYou2.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 4:
+            fuckYou3.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 5:
+            fuckYou4.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 6:
+            fuckYouBuddy.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 7:
+            fuckYouPal.play();
+            num = Math.floor(Math.random() * 9);
+            break;
+        case 8:
+            goFuckYour.play();
+            num = Math.floor(Math.random() * 9);
+            break; 
+    }
+ 
+}
      </script>
      <!--End of Javascript-->
   </body>
