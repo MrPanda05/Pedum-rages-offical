@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "[javascript]":{
+        "editor.formatOnSave": true,
+    },    
+}
