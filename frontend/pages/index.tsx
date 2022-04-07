@@ -12,11 +12,9 @@ const Home: NextPage = () => {
         <title>Pedum-rages</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Header />
-      <Nav />
       <main>
-        <div className='container'>
-          <h1>Bem vindo</h1>
+        <div>
+          <h1 className=''>Bem vindo</h1>
           <p>
             Bem-vindo ao Pedum rages. Você escolheu, ou foi escolhido, para ter acess ao uns dos melhores sites do universo.
             Eu pensei muito sobre Pedum rages que eu mesmo estabeleci como ADM, nesse site muito bem pensado pelos nossos colaboradores.
